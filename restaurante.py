@@ -10,6 +10,6 @@ class restaurante:
         print(f"el restaurante {self.restaurante} esta abierto")
 
 
-r = restaurante("1","2")
-r.describir_restaurante()
-r.abrir_restaurante()
+#r = restaurante("1","2")
+#r.describir_restaurante()
+#r.abrir_restaurante()
