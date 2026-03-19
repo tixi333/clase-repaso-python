@@ -24,14 +24,14 @@ class Usuario:
 class Administrador(Usuario):
     def __init__(self, nombre, apellido, edad,privilegios):
         super().__init__(nombre, apellido, edad)
-        self.privilegios = privilegios
+        self.privilegios = Privilegios(privilegios)
     
     def mostrar_privilegios(self):
-        a
+        self.privilegios.mostrar_privilegios()
 
 class Privilegios:
     def __init__(self,privilegios):
-        self.privilegios
+        self.privilegios = privilegios
     
     def mostrar_privilegios(self):
         for e in self.privilegios:
@@ -39,4 +39,5 @@ class Privilegios:
 
 privilegios = ["puede agregar publicaciones", "puede eliminar publicaciones", "puede bloquear usuarios"]
 
-a = Administrador("tici","garin","16",privilegios)
+admin = Administrador("tici","garin","16",privilegios)
+admin.mostrar_privilegios()

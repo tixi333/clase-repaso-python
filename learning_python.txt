@@ -1,0 +1,9 @@
+A lo largo del aprendizaje de Python, incorporé distintos conceptos fundamentales de la programación.
+
+Aprendí a pensar los problemas de manera lógica, dividiéndolos en pasos más pequeños para poder resolverlos con mayor claridad.
+
+También aprendí a usar variables para guardar información y a trabajar con distintos tipos de datos, como números y textos.
+
+Incorporé el uso de estructuras de control, como condicionales (if, else) y bucles (for, while), que permiten que el programa tome decisiones y repita acciones.
+
+Además, entendí cómo funcionan las funciones, que ayudan a organizar el código y hacerlo más reutilizable.
